@@ -19,9 +19,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "heroku-postbuild": "npm install --legacy-peer && npm install && npm run build",
-    "start": "react-scripts start",
-    "build": "npm install --legacy-peer && react-scripts build",
+    "heroku-postbuild": "npm install --legacy-peer-deps && npm install && npm run build",
+    "start": "npm install --legacy-peer-deps react-scripts start",
+    "build": "npm install --legacy-peer-deps && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
