@@ -1,0 +1,35 @@
+.Certifications {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: #f0f0f0
+  }
+  
+  
+  
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .projectmanagement {
+    text-align: justify;
+  }
+
+  .dataAnalysis {
+    text-align: justify;
+  }
+  
+.FintechBlockchain {
+  text-align: justify;
+}
+
+.vertical-timeline-element-education {
+  font-family: sans-serif;
+  text-align: justify;
+}
+
